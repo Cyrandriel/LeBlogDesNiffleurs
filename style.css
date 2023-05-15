@@ -6,7 +6,7 @@
 }
 /* head */
 .banniere {
-    padding: 2em; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter de l'espace dans notre élément*/
+    padding: 2em;
     /* background-image: url('paysage.jpg'); */
     background-color:  #683636;
     background-attachment: initial;
@@ -15,12 +15,22 @@
     
 }
 
+
 .title-ban{
     color: bisque;
     font-size: 3em;
     font-family: 'Rancho';
 }
-h1,h2,h3,h4{
+h1, h2, h3, h4{
+    font-family: 'Rancho';
+}
+
+h2, h3, h4{
+    margin-left: 2em;
+}
+p{
+    color : #362424;
+    font-size: 1.2em;
     font-family: 'Rancho';
 }
 
@@ -60,8 +70,7 @@ body{
 }
 
 h2{
-    font-size: 2em;
-    text-align: left;
+    font-size: 3em;
     color :#624343;
 }
 
@@ -70,17 +79,26 @@ h3{
     color: #624343;
 }
 
-.presentation{
+.bloc{
     background-color: #a1757596;
-    padding: 10px 10px;
-    margin-left: 2em;
-    margin-right: 2em;
+    padding: 1em 1em 1em 1em;
+    margin: 2em 2em 2em 2em;
 }
 
 .image-pres{
     height: 10em;
     float: left;
-    padding: 10px 10px 10px 10px;
+    
+    padding: 5px 5px 5px 5px;
+}
+
+.image-niffleur{
+    height: 200px;
+    margin: 10px 10px 10px 10px ;
+    border-radius: 5%;
+    border: 5px;
+    border-color: #362424;
+    border-style: none solid solid none;
 }
 
 /* footer */
@@ -89,6 +107,7 @@ footer{
     background-color:  #9b5c5c;
     margin-top: 2em;
     text-align: center;
+    font-family: 'Rancho';
 }
 h4{
     font-size: 1.5em;
