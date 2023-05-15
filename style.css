@@ -1,4 +1,96 @@
+
 .logo {
     /*peekaboo */
     height : 30px;
+    margin: 10px 10px 10px 10px ;
+}
+/* head */
+.banniere {
+    padding: 2em; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter de l'espace dans notre élément*/
+    /* background-image: url('paysage.jpg'); */
+    background-color:  #683636;
+    background-attachment: initial;
+    background-position: top center;
+    text-align: center;
+    
+}
+
+.title-ban{
+    color: bisque;
+    font-size: 3em;
+    font-family: 'Rancho';
+}
+h1,h2,h3,h4{
+    font-family: 'Rancho';
+}
+
+
+/* Navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #966565;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Rancho';
+}
+
+    /* Change on hover */
+li a:hover {
+    background-color: #624343;
+}
+
+/* body */
+
+body{
+    background-color: #6243435d;
+}
+
+h2{
+    font-size: 2em;
+    text-align: left;
+    color :#624343;
+}
+
+h3{
+    font-size: 1.5em;
+    color: #624343;
+}
+
+.presentation{
+    background-color: #a1757596;
+    padding: 10px 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.image-pres{
+    height: 10em;
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+
+/* footer */
+
+footer{
+    background-color:  #9b5c5c;
+    margin-top: 2em;
+    text-align: center;
+}
+h4{
+    font-size: 1.5em;
+    color: bisque;
 }
