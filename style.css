@@ -35,7 +35,7 @@ p{
 
 
 /* Navigation */
-ul {
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -43,11 +43,11 @@ ul {
     background-color: #966565;
 }
 
-li {
+.menuli {
     float: left;
 }
 
-li a {
+.menuli a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -58,11 +58,31 @@ li a {
 }
 
     /* Change on hover */
-li a:hover {
+.menuli a:hover {
     background-color: #624343;
 }
 
+
 /* aside */
+/* .menuh {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+}
+   
+.menuh a {
+    background-color: #dddddd;
+    display: block;	  
+    color: blue; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size : 20px;
+  }
+
+.menuh a:hover {
+    color: #565656; 
+  } */
+
 /* body */
 
 body{
