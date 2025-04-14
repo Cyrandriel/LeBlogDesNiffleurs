@@ -85,6 +85,12 @@ h3{
     margin: 2em 2em 2em 2em;
 }
 
+
+.grosbloc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .image-pres{
     height: 10em;
     float: left;
